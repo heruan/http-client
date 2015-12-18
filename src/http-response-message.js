@@ -39,6 +39,11 @@ export class HttpResponseMessage {
   * The mime type of the response.
   */
   mimeType: string;
+  
+  /**
+  * The headers to send along with the request.
+  */
+  headers: Headers;
 
   /**
   * Creates an instance of HttpResponseMessage.
